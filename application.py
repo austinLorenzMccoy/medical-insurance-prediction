@@ -2,7 +2,7 @@ from flask import Flask, request, render_template
 import numpy as np
 import pandas as pd
 
-# Import your prediction pipeline
+# Import prediction pipeline
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
 application = Flask(__name__)
