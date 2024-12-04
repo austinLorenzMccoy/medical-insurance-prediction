@@ -2,7 +2,7 @@ from flask import Flask, request, render_template
 import numpy as np
 import pandas as pd
 
-# Import your prediction pipeline
+# Import prediction pipeline
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
 application = Flask(__name__)
@@ -44,4 +44,4 @@ def predict_datapoint():
         return render_template('index.html')
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001,debug= True)  # Ensure the port matches your use case
+    app.run(host="0.0.0.0", port=5001,debug= True)
