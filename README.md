@@ -182,8 +182,7 @@ The project includes custom error handling and logging:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License 📝
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## Contact 📧
 Austin Lorenz McCoy
@@ -192,4 +191,3 @@ Austin Lorenz McCoy
 
 ## Acknowledgments 🙏
 - Dataset source: [Kaggle Medical Cost Personal Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance/data)
-- Special thanks to all contributors and the open-source community
